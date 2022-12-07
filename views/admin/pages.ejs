@@ -1,0 +1,44 @@
+<%-include('../includes/header.ejs');%>
+<div class="row">
+    <%-include('../includes/adminsidebar.ejs');%>
+    <div class="col-10 p-5">
+        <h1 class="p-3">Les pages</h1>
+        <a href="/admin/pages/add" class="btn btn-dark float-right my-3"> <i class='px-1 bx bx-plus'></i> Ajouter</a>
+        <table class="table  shadow p-3 mb-5 bg-body rounded  border-opacity-10">
+            <thead class="bg-dark text-light rounded-top">
+              <tr>
+                <th scope="col">Titre</th>
+                <th scope="col">description</th>
+               
+                <th scope="col">Actions</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Home</th>
+                <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, error.</td>
+                  <td><div class="pt-4">
+                  <i class='px-1 text-primary bx bxs-edit'></i><i class=' px-1 bx bxs-trash text-danger'></i>
+                </div>
+                </td>
+                
+               
+              </tr>
+              <tr>
+                <th scope="row">About</th>
+                <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, ea!</td>
+                   <td><div class="pt-4">
+                  <i class='px-1 text-primary bx bxs-edit'></i><i class=' px-1 bx bxs-trash text-danger'></i>
+                </div>
+                </td>
+              </tr>
+              <tr>
+              
+            </tbody>
+          </table>
+    </div>
+     
+
+
+</div>
